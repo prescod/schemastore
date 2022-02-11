@@ -924,6 +924,14 @@
       "url": "https://json.schemastore.org/csslintrc.json"
     },
     {
+      "name": "cumulusci.yml",
+      "description": "A schema for CumulusCI YAML configuration files",
+      "fileMatch": [
+        "cumulusci.yml"
+      ],
+      "url": "https://raw.githubusercontent.com/SFDO-Tooling/CumulusCI/main/cumulusci/schema/cumulusci.jsonschema.json"
+    },
+    {
       "name": "Dart build configuration",
       "description": "Configuration for Dart's build system",
       "url": "https://json.schemastore.org/dart-build.json"
@@ -2782,6 +2790,15 @@
         "snapcraft.yaml"
       ],
       "url": "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json"
+    },
+    {
+      "name": "Snowfakery recipe",
+      "description": "Snowfakery Recipe YAML file",
+      "fileMatch": [
+        "*.recipe.yml",
+        "*.recipe.yaml"
+      ],
+      "url": "https://raw.githubusercontent.com/SFDO-Tooling/Snowfakery/main/schema/snowfakery_recipe.jsonschema.json"
     },
     {
       "name": "Solidarity",
